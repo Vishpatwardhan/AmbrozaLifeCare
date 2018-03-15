@@ -1,0 +1,35 @@
+@media (min-width: 768px) {
+
+    .brand-pills > li > a {
+        border-top-right-radius: 0px;
+    	border-bottom-right-radius: 0px;
+    }
+    
+    li.brand-nav.active a:after{
+    	content: " ";
+    	display: block;
+    	width: 0;
+    	height: 0;
+    	border-top: 20px solid transparent;
+    	border-bottom: 20px solid transparent;
+    	border-left: 9px solid #ffb82e;
+    	position: absolute;
+    	top: 50%;
+    	margin-top: -20px;
+    	left: 100%;
+    	z-index: 2;
+    }
+}
+
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background-color: #ee7f1b;
+}
+
+a {
+    color: #000000;
+}
+.panel-default>.panel-heading {
+    color: #ffffff;
+    background-color: #737373;
+    border-color: #ddd;
+}

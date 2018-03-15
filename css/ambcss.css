@@ -1,0 +1,219 @@
+﻿.affix {
+    top: 0;
+    width: 100%;
+    z-index: 5000;
+}
+
+#nav.affix {
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    z-index: 5000;
+}
+/* ambroza color code -  #ee7f1b*/
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover {
+    background-color: white;
+    color: #ee7f1b;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: black;
+}
+
+    .navbar-inverse .navbar-nav > li > a:hover {
+        background-color: white;
+        color: #ee7f1b;
+    }
+
+/*Nav bar*/
+
+.navbar {
+    position: relative;
+    /*min-height: 50px;*/
+    /*margin-bottom: 20px;*/
+    border: 1px solid transparent;
+}
+
+font {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.social [class*="fa fa-"] {
+    background-color: #333;
+    border-radius: 30px;
+    color: #fff;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    margin: auto 3px;
+    width: 30px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.fa-twitter:hover {
+    background-color: #46c0fb;
+}
+
+.fa-facebook:hover {
+    background-color: #3b5998;
+}
+
+.fa-linkedin:hover {
+    background-color: #0077B5;
+}
+
+.fa-google-plus:hover {
+    background-color: #dd4b39;
+}
+
+
+.social1 [class*="fa fa-"] {
+    background: -webkit-linear-gradient(top, green, yellow);
+    background: -o-linear-gradient(top, green, yellow); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(top, green, yellow); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(top, green, yellow); /* Standard syntax */
+    border-radius: 57px;
+    color: #fff;
+    display: inline-block;
+    height: 66px;
+    line-height: 67px;
+    margin: auto 3px;
+    width: 66px;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.fa-phone:hover {
+    background-color: #dd4b39;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../images/Beneficios del ejercicio aeróbico en ayunas.jpg');
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url('../images/medicine-exports.jpg');
+    /* Set a specific height */
+    min-height: 500px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.layer-1 {
+    width: 100%;
+    height: 35em;
+
+}
+
+.layer-1 {
+    /*background: -moz-linear-gradient(45deg, rgba(0,128,0,1) 0%, rgba(255,255,0,1) 93%, rgba(255,255,0,1) 100%);*/
+    background: -webkit-linear-gradient(top,rgb(123, 4, 24), rgb(250, 124, 146));
+    /*background: -o-linear-gradient(45deg, rgba(0,128,0,1) 0%, rgba(255,255,0,1) 93%, rgba(255,255,0,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(0,128,0,1) 0%, rgba(255,255,0,1) 93%, rgba(255,255,0,1) 100%);
+    background: linear-gradient(45deg, rgba(0,128,0,1) 0%, rgba(255,255,0,1) 93%, rgba(255,255,0,1) 100%);*/
+}
+
+.myfooter {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #efefef;
+  
+}
+
+/* PRoduct CSS*/
+
+.cuadro_intro_hover{
+    	padding: 0px;
+		position: relative;
+		overflow: hidden;
+		height: 300px;
+	}
+	.cuadro_intro_hover:hover .caption{
+		opacity: 1;
+		transform: translateY(-250px);
+		-webkit-transform:translateY(-250px);
+		-moz-transform:translateY(-250px);
+		-ms-transform:translateY(-250px);
+		-o-transform:translateY(-250px);
+	}
+	.cuadro_intro_hover img{
+		z-index: 4;
+	}
+	.cuadro_intro_hover .caption{
+		position: absolute;
+		top:250px;
+		-webkit-transition:all 0.3s ease-in-out;
+		-moz-transition:all 0.3s ease-in-out;
+		-o-transition:all 0.3s ease-in-out;
+		-ms-transition:all 0.3s ease-in-out;
+		transition:all 0.3s ease-in-out;
+		width: 100%;
+	}
+	.cuadro_intro_hover .blur{
+		background-color: rgba(0,0,0,0.7);
+		height: 300px;
+		z-index: 5;
+		position: absolute;
+		width: 100%;
+	}
+	.cuadro_intro_hover .caption-text{
+		z-index: 10;
+		color: #fff;
+		position: absolute;
+		height: 300px;
+		text-align: center;
+		top:-20px;
+		width: 100%;
+	}
+/* PRoduct CSS*/
+
+html{
+-webkit-font-smoothing: none;
+-webkit-font-smoothing: antialiased;
+}
+hr.style14 {
+    border: 0;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+}
+/* Add animation to "page content" */
+.animate-bottom {
+  position: relative;
+  -webkit-animation-name: animatebottom;
+  -webkit-animation-duration: 1s;
+  animation-name: animatebottom;
+  animation-duration: 1s
+}
+
+@-webkit-keyframes animatebottom {
+  from { bottom:-100px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes animatebottom { 
+  from{ bottom:-100px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
